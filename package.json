@@ -1,0 +1,33 @@
+{
+  "name": "snake-ai",
+  "version": "1.0.0",
+  "description": "A snake AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InimicalPart/snake-ai.git"
+  },
+  "keywords": [
+    "snake-ai"
+  ],
+  "author": "InimicalPart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InimicalPart/snake-ai/issues"
+  },
+  "homepage": "https://github.com/InimicalPart/snake-ai#readme",
+  "dependencies": {
+    "astar": "^0.0.1",
+    "child_process": "^1.0.2",
+    "electron": "^14.0.0",
+    "geneticalgorithm": "^1.0.2",
+    "hampath3": "^0.0.5",
+    "path": "^0.12.7",
+    "pathfinding": "^0.4.18",
+    "pretty-ms": "^7.0.1"
+  }
+}

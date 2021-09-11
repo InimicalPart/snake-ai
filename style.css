@@ -1,0 +1,57 @@
+.cell {
+  background-color: gray;
+  width: 12.5px;
+  height: 12.5px;
+  display: flex;
+  justify-content: center;
+  transform: rotate(90deg);
+}
+.entire {
+  width: 500px;
+  height: 500px;
+  transform: rotate(0deg);
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.row {
+  float: left;
+}
+body {
+  background-color: #323232;
+}
+#snakeHeadTxt {
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  color: #fff;
+}
+#snakeDirTxt {
+  color: #fff;
+  /*move to left of screen */
+  position: absolute;
+  top: 20px;
+  left: 8px;
+  word-wrap: normal;
+}
+#snakeLengthTxt {
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 8px;
+}
+#searchTook {
+  color: #fff;
+  position: absolute;
+  top: 60px;
+  left: 8px;
+}
+#MovesToApple {
+  color: #fff;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  word-wrap: normal;
+  width: 120px;
+}
